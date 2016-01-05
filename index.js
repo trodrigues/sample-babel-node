@@ -1,8 +1,10 @@
 //
 
+import animalContent from './animal-content'
+
 var Animal = class {
     sayHi() {
-        return 'Hi, I am an animal';
+        return animalContent();
     }
 
     sayOther() {
